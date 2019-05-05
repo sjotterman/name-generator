@@ -1,5 +1,7 @@
 /* eslint-disable no-console */
 const express = require("express");
+const generator = require("./src/generator");
+
 const app = express();
 
 const port = process.env.PORT || 4000;
@@ -9,7 +11,8 @@ app.get("/", (req, res) => {
 });
 
 app.get("/name", (req, res) => {
-  res.send("Namify");
+  const name = generator.randomName();
+  res.send(name);
 });
 
 app.listen(port, () => {
