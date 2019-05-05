@@ -1,4 +1,21 @@
-const prefixes = ["nam", "runn", "crunch", "shop", "swip", "pet", "dog"];
+const prefixes = [
+  "nam",
+  "runn",
+  "crunch",
+  "shop",
+  "swip",
+  "pet",
+  "dog",
+  "food",
+  "cash",
+  "book",
+  "chef",
+  "cod",
+  "programm",
+  "concert",
+  "music",
+  "cook"
+];
 const suffixes = ["ify", "ly", "r"];
 function randomPrefix() {
   const randomIndex = Math.floor(Math.random() * prefixes.length);
