@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
 
 app.get("/name", (req, res) => {
   const name = generator.randomName();
-  res.send(name);
+  res.json({ name });
 });
 
 app.listen(port, () => {
