@@ -8,7 +8,7 @@
     "lint:watch": "esw --w --color",
     "run:server": "nodemon app.js",
     "dev": "npm-run-all --parallel lint:watch run:server",
-    "start": "nodemon app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Samuel J. Otterman",
