@@ -14,7 +14,9 @@ const prefixes = [
   "programm",
   "concert",
   "music",
-  "cook"
+  "cook",
+  "beach",
+  "trip"
 ];
 const suffixes = ["ify", "ly", "r"];
 function randomPrefix() {
