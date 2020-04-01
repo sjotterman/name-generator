@@ -1,3 +1,5 @@
+Superseded by https://github.com/sjotterman/namr-api
+---
 # name-generator
 Startup Name Generator
 
